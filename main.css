@@ -1,0 +1,109 @@
+/*GLOBAL STYLES*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	background: #fdfdfd;
+}
+
+/*HEADER & NAV STYLES*/
+header {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: 10%;
+}
+ 
+header nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav a {
+	text-align: center;
+	text-decoration: none;
+	color: #adadad;
+	font-family: 'Playfair Display', serif;
+	font-weight: 300; 
+	font-size: 15px;
+	line-height: 120px;
+	padding-right: 15px;
+}
+
+header img.logo { /*NOTE: I need these images to be vectors (svgs) instead*/
+	width: 35px;
+	height: 35px;
+	padding-top: calc((120px - 35px)/2);
+}
+
+/*SECTION 1*/
+#section1 {	
+	margin: 0 auto;
+	background-image: linear-gradient(
+	  rgba(0, 4, 48, 0.3), 
+      rgba(0, 4, 48, 0.3)
+    ),url("fish.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width: 80%;
+	height: 550px;
+}
+
+#section1 img.profile {
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	object-fit: cover;
+	object-position: 55% 0;
+	width: 500px;
+	height: 600px;
+	padding-top: 75px;
+}
+
+#section1 h1 {
+	position: absolute;
+	top: 300px;
+	left: 250px;
+	color: #f3f3f3;
+	font-family: 'Playfair Display', serif;
+	font-weight: 500; 
+	font-size: 64px;
+	text-align: right;
+}
+
+/*ABOUT*/
+#about {
+	margin: 0 auto;
+	padding-top: calc(125px + 50px);
+	width: 500px;
+}
+
+#about h1 {
+	color: #232323;
+	font-family: 'Playfair Display', serif;
+	font-weight: 500; 
+	font-size: 64px;
+	text-align: center;
+}
+
+#about p {
+	padding-top: 50px;
+	color: #232323;
+	font-family: 'Playfair Display', serif;
+	font-weight: 500; 
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
+	padding-bottom: 120px;
+}
+
+
+
+
+
+
+
