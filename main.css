@@ -1053,7 +1053,7 @@ p.back {
     left: 0;
     box-shadow: 50px 30px 600px 50px rgba(38, 44, 72, .2) inset;
 
-    background: url("media/me.jpg");
+    background: url("media/me.JPG");
     background-size: cover;
     background-position: 50% 90%;
     background-repeat: no-repeat;
