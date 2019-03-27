@@ -20,7 +20,12 @@ body {
 }
 
 .bolded {
-    font-weight: 700;
+    font-weight: 500;
+}
+
+a {
+    color: #262c48;
+    text-decoration: none;
 }
 
 /*HEADER SECTION*/
@@ -180,10 +185,10 @@ h1 {
 }
 
 h2 {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #262c48;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
     text-align: center;
     padding-top: 75px;
@@ -191,7 +196,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #262c48;
     font-size: 15px;
     text-align: center;
@@ -200,7 +205,7 @@ h3 {
 }
 
 h3.splash-scroll {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #262c48;
     font-size: 30px;
     text-align: center;
@@ -216,11 +221,11 @@ h3.splash-scroll {
 }
 
 h4 {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #262c48;
     font-size: 30px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
     padding-top: 100px;
     text-transform: uppercase;
 }
@@ -239,6 +244,8 @@ h4 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    margin-top: 10px;
 }
 
 .proj2 {
@@ -255,9 +262,6 @@ h4 {
     background-position: 50% 30%;
     background-repeat: no-repeat;
     background-size: cover;
-
-    margin-top: 10px;
-
 }
 
 /*hovers - w3schools*/
@@ -282,7 +286,7 @@ h4 {
 }
 
 .overlay-text {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #f3f3f3;
     font-size: 22px;
     font-weight: 400;
@@ -293,7 +297,7 @@ h4 {
 }
 
 .overlay-bolded {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /*MORE WORK SECTION*/
@@ -368,7 +372,7 @@ h4 {
 }
 
 .cover-text {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #f3f3f3;
     font-size: 22px;
     font-weight: 400;
@@ -379,7 +383,7 @@ h4 {
 }
 
 .cover-bolded {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /*CONTACT SECTION*/
@@ -411,8 +415,8 @@ a.say-hello {
     text-decoration: none;
     text-decoration: none;
     color: #f3f3f3;
-    font-family: 'Cabin', sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 17px;
     letter-spacing: 1px;
 
@@ -436,7 +440,7 @@ a.say-hello:hover {
 
 /*GLOBAL PROJ STYLES*/
 #proj-overview {
-    width: 950px;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -446,6 +450,12 @@ a.say-hello:hover {
     padding-top: 150px;
 }
 
+.project-clean {
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
 /*texts*/
 .proj-title {
     text-align: left;
@@ -453,9 +463,9 @@ a.say-hello:hover {
 }
 
 .proj-text {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #262c48;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 50px;
     
@@ -463,16 +473,16 @@ a.say-hello:hover {
 }
 
 .proj-subtitle {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #262c48;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     
     padding-top: 30px;
 }
 
 .proj-content {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #262c48;
     font-size: 17px;
     line-height: 30px;
@@ -482,20 +492,20 @@ a.say-hello:hover {
 }
 
 a.back {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #262c48;
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
     width: 120px;
 }
 
 p.back {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #262c48;
     font-size: 17px;
     margin-top: 100px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .back:hover {
@@ -503,9 +513,11 @@ p.back {
 }
 
 /*flex*/
-#proj-flex {
+.proj-flex {
     display: flex;
     flex-direction: row;
+    width: 700px;
+    margin: 0 auto;
     
     padding-top: 30px;
     padding-bottom: 20px;
@@ -517,7 +529,7 @@ p.back {
 
 .proj-right {
     width: 350px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 
@@ -747,6 +759,75 @@ p.back {
     background-repeat: no-repeat;
 }
 
+/*PROCESS SECTION*/
+.clean-story {
+    width: 950px;
+    height: 480px;
+    
+    background: url("media/clean-story.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clean-overview {
+    width: 950px;
+    height: 480px;
+    
+    background: url("media/clean-overview.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clean-approach {
+    width: 950px;
+    height: 480px;
+    
+    background: url("media/clean-approach.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin-top: 10px;
+}
+
+.clean-flow {
+    width: 950px;
+    height: 480px;
+    
+    background: url("media/clean-flow.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin-top: 10px;
+}
+
+.clean-mood {
+    width: 950px;
+    height: 480px;
+    
+    background: url("media/clean-mood.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin-top: 10px;
+}
+
+.clean-credit {
+    width: 950px;
+    height: 480px;
+    
+    background: url("media/clean-credit.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin-top: 10px;
+}
+
 /*PAGES SECTION*/
 .clean-img1 {
     width: 950px;
@@ -758,6 +839,7 @@ p.back {
     background-repeat: no-repeat;
     
     border: 2px solid #dddddd;
+    margin-top: 10px;
 }
 
 .clean-img2 {
@@ -1041,7 +1123,11 @@ p.back {
 
 
 /*ABOUT PAGE*/
-/*HERO SECTION*/
+#abt-overview {
+    width: 950px;
+    margin: 0 auto;
+}
+
 /*HERO SECTION*/
 #about-hero {
     width: 400px;
@@ -1053,7 +1139,7 @@ p.back {
     left: 0;
     box-shadow: 50px 30px 600px 50px rgba(38, 44, 72, .2) inset;
 
-    background: url("media/me.JPG");
+    background: url("media/me.jpg");
     background-size: cover;
     background-position: 50% 90%;
     background-repeat: no-repeat;
