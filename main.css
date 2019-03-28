@@ -544,7 +544,7 @@ a.say-hello:hover {
 .project-clean {
     width: 950px;
     margin: 0 auto;
-    padding-top: 75px;
+    padding-top: 30px;
 }
 
 /*texts*/
@@ -833,6 +833,15 @@ p.back {
 
 
 /*KEEP CLEAN PAGE*/
+h3.clean-scroll {
+    font-family: 'Roboto', sans-serif;
+    color: #EA2A58;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
 /*PROCESS SECTION*/
 .clean-intro {
     width: 950px;
@@ -914,7 +923,7 @@ a.to-comps2:hover {
     background-position: center;
     background-repeat: no-repeat;
     
-    margin-top: 170px;
+    margin-top: 100px;
 }
 
 .clean-approach {
