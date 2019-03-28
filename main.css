@@ -36,10 +36,12 @@ header {
     justify-content: space-between;
 }
 
+/*NAV*/
 nav {
     line-height: 120px;
 }
 
+/*main*/
 .nav-list {
     text-align: center;
     text-decoration: none;
@@ -55,6 +57,24 @@ nav {
     transition: .5s;
 }
 
+/*clean*/
+.nav-clean {
+    text-align: center;
+    text-decoration: none;
+    color: #adadad;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.nav-clean:hover {
+    color: #ea2a58;
+    transition: .5s;
+}
+
+/*LOGOS*/
+/*main*/
 .logo-flex {
     display: flex;
     flex-direction: row;
@@ -76,7 +96,19 @@ p.logo-text {
     padding-left: 20px;
 }
 
+/*clean*/
+p.logo-text-clean {
+    color: #444444;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 125px;
+
+    padding-left: 20px;
+}
+
 /*FOOTER*/
+/*main*/
 footer {
     width: 950px;
     margin: 0 auto;
@@ -151,6 +183,65 @@ p.foot-logo-text {
     margin-left: 25px;
     
     background: url("media/doc2.png");
+    background-size: 29px 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    transition: .5s;
+}
+
+/*clean*/
+p.foot-clean-text {
+    color: #444444;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+
+    padding-top: calc((45px/2) - 12px);
+    padding-left: 20px;
+}
+
+.foot-sent-clean {
+    width: 28px;
+    height: 28px;
+    padding-top: 2px;
+    
+    background: url("media/sent1.png");
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.foot-sent-clean:hover {
+    width: 28px;
+    height: 28px;
+    padding-top: 2px;
+    
+    background: url("media/sent-pink.png");
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    transition: .5s;
+}
+
+.foot-doc-clean {
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    
+    background: url("media/doc1.png");
+    background-size: 29px 28px;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.foot-doc-clean:hover {
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    
+    background: url("media/doc-pink.png");
     background-size: 29px 28px;
     background-position: center;
     background-repeat: no-repeat;
@@ -1034,6 +1125,23 @@ a.to-prototype:hover {
     background-repeat: no-repeat;
     
     margin-top: 100px;
+}
+
+/*CLEAN BACK SECTION*/
+.back {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.back-clean {    
+    font-size: 60px;
+    color: #444444;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.back-clean:hover {
+    color: #ea2a58;
 }
 
 
