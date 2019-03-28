@@ -742,24 +742,78 @@ p.back {
 
 
 /*KEEP CLEAN PAGE*/
-/*HERO SECTION*/
-#clean-hero {
+/*PROCESS SECTION*/
+.clean-intro {
     width: 950px;
-    height: 400px;
-    margin: 0 auto;
-
-    /*vignette*/
-    top: 0;
-    left: 0;
-    box-shadow: 50px 30px 600px 50px rgba(38, 44, 72, .4) inset;
-
-    background: url("media/keep-clean.jpg");
+    height: 430px;
+    
+    background: url("media/clean-intro.jpg");
     background-size: cover;
-    background-position: 50% 35%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
-/*PROCESS SECTION*/
+/*links*/
+.clean-links {    
+    display: flex;
+    flex-direction: row;
+    
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 150px;
+}
+
+a.to-comps1 {
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+    color: #EA2A58;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border: 3px solid #EA2A58;
+    border-radius: 5px;
+}
+
+a.to-comps2 {
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+    color: #EA2A58;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+
+    border: 3px solid #EA2A58;
+    border-radius: 5px;
+}
+
+a.to-comps1:hover {
+    background: #EA2A58;
+    color: #f3f3f3;
+    transition: .5s;
+}
+
+a.to-comps2:hover {
+    background: #EA2A58;
+    color: #f3f3f3;
+    transition: .5s;
+}
+
 .clean-story {
     width: 950px;
     height: 480px;
@@ -768,16 +822,8 @@ p.back {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.clean-overview {
-    width: 950px;
-    height: 480px;
     
-    background: url("media/clean-overview.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    margin-top: 170px;
 }
 
 .clean-approach {
@@ -792,16 +838,14 @@ p.back {
     margin-top: 10px;
 }
 
-.clean-flow {
+.clean-solution {
     width: 950px;
     height: 480px;
     
-    background: url("media/clean-flow.jpg");
+    background: url("media/clean-solution.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
-    margin-top: 10px;
 }
 
 .clean-mood {
@@ -816,19 +860,62 @@ p.back {
     margin-top: 10px;
 }
 
-.clean-credit {
+.clean-inspiration {
+    width: 950px;
+    height: 600px;
+    
+    background: url("media/clean-inspiration.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.clean-flow {
     width: 950px;
     height: 480px;
     
-    background: url("media/clean-credit.jpg");
+    background: url("media/clean-flow.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
     margin-top: 10px;
+    margin-bottom: 100px;
 }
 
-/*PAGES SECTION*/
+/*COMP COVER SECTION*/
+#clean { 
+    width: 950px;
+    height: 550px;
+    
+    background:
+        /*white tint*/
+        linear-gradient(rgba(243, 243, 243, 0.65), rgba(243, 243, 243, 0.65)),
+        url("media/clean-transparent.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-bottom: 75px;
+}
+
+.clean-title1 {
+    color: #EA2A58;
+    padding-top: 175px;
+    font-size: 50px;
+}
+
+.clean-title2 {
+    color: #EA2A58;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+/*COMPS SECTION*/
 .clean-img1 {
     width: 950px;
     height: 480px;
@@ -905,6 +992,48 @@ p.back {
     
     border: 2px solid #dddddd;
     margin-top: 10px;
+    margin-bottom: 120px;
+}
+
+/*PROTOTYPE LINK SECTION*/
+a.to-prototype {
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+    color: #EA2A58;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 1px;
+    
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    margin-left: 355px;
+
+    border: 3px solid #EA2A58;
+    border-radius: 5px;
+}
+
+a.to-prototype:hover {
+    background: #EA2A58;
+    color: #f3f3f3;
+    transition: .5s;
+}
+
+/*CLEAN CREDIT SECTION*/
+.clean-credit {
+    width: 950px;
+    height: 480px;
+    
+    background: url("media/clean-credit.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin-top: 100px;
 }
 
 
