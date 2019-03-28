@@ -983,7 +983,20 @@ a.to-comps2:hover {
     background-repeat: no-repeat;
     
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
+}
+
+.clean-features {
+    width: 950px;
+    height: 480px;
+    
+    background: url("media/clean-features.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin-top: 10px;
+    margin-bottom: 60px;
 }
 
 /*COMP COVER SECTION*/
